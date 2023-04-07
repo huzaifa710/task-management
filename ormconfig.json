@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": "3000",
+  "username": "postgres",
+  "password": "Jan&7423",
+  "database": "task-management",
+  "migrationsTableName": "task",
+  "migrations": ["task/migration/*.ts"],
+  "cli": {
+    "migrationsDir": "migration"
+  }
+}
